@@ -36,6 +36,7 @@ const TodoList: React.FC<Props> = ({ todos, setTodos, completedTodos, setComplet
                                     />
                                 ))
                             }
+                            {provided.placeholder}
                         </div>
                     )
                 }
